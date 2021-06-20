@@ -32,6 +32,9 @@ Fast OneDrive Index / FODI，无需服务器的 OneDrive 快速列表程序
 - 进一步提升速度
 - 增加 Python3.6 后端
 
+#### Get Refresh token :
+- [Refresh Token Helper](https://logi.im/fodi/get-code/)
+
 #### 安装
 
 - [在 Cloudflare 部署 FODI 后端](https://logi.im/back-end/fodi-on-cloudflare.html)
