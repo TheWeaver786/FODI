@@ -2,11 +2,11 @@
 
 Fast OneDrive Index / FODI，A Quick OneDrive Index program without server (CF workers)
 
-### Preview
+### Preview:
 
 - [DEMO](https://logi.im/fodi.html)
 
-### Features
+### Features:
 
 - Specify the display path
 - Encryption of specific folders
@@ -14,28 +14,28 @@ Fast OneDrive Index / FODI，A Quick OneDrive Index program without server (CF w
 - Basic text, picture, audio, video and Office documents preview
 - And more...
 
-### Issues
+### Issues:
 
 - Simple functions and simple interface
 - IE and UWP version of EDGE browsers are not supported
 - It may not support the display of folders containing thousands of files or more
 
-### Updates/Changelog
+### Updates/Changelog:
 
-#### 2019.12.23
+#### 2019.12.23:
 
 - Further speed up
 - Add Cloudflare Workers backend
 
-#### 2019.12.07
+#### 2019.12.07:
 
 - Further speed up
 - Add Python3.6 backend
 
-### Get Refresh token :
+### Get Refresh token:
 - [Refresh Token Helper](https://logi.im/fodi/get-code/)
 
-### Installation guide
+### Installation guide:
 
 - [Deploy FODI backend on Cloudflare](https://logi.im/back-end/fodi-on-cloudflare.html)
 
