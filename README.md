@@ -1,36 +1,36 @@
 # FODI
 
-Fast OneDrive Index / FODI，无需服务器的 OneDrive 快速列表程序
+Fast OneDrive Index / FODI，A Quick OneDrive Index program without server (CF workers)
 
-#### 预览
+#### Preview
 
 - [DEMO](https://logi.im/fodi.html)
 
-#### 功能
+#### Features
 
-- 接近秒速列表
-- 指定展示路径
-- 特定文件夹加密
-- 无需服务器免费部署
-- 基本文本、图片、音视频和 Office 三件套预览
+-Specify the display path
+-Encryption of specific folders
+-No server required for free deployment
+-Basic text, picture, audio, video and Office documents preview
+-And more...
 
-#### 缺点
+#### Issues
 
-- 功能简单，界面简陋
-- 不支持巨硬家的 IE 和 UWP 版 EDGE 浏览器
-- 可能不支持包含千级数量以上文件的文件夹展示
+-Simple functions and simple interface
+-IE and UWP version of EDGE browsers are not supported
+-It may not support the display of folders containing thousands of files or more
 
-#### 更新
+#### Updates/Changelog
 
 ##### 2019.12.23
 
-- 进一步提升速度
-- 增加 Cloudflare Workers 后端
+-Further speed up
+-Add Cloudflare Workers backend
 
 ##### 2019.12.07
 
-- 进一步提升速度
-- 增加 Python3.6 后端
+-Further speed up
+-Add Python3.6 backend
 
 #### Get Refresh token :
 - [Refresh Token Helper](https://logi.im/fodi/get-code/)
@@ -38,3 +38,6 @@ Fast OneDrive Index / FODI，无需服务器的 OneDrive 快速列表程序
 #### Installation guide
 
 - [Deploy FODI backend on Cloudflare](https://logi.im/back-end/fodi-on-cloudflare.html)
+
+
+NB: translated from Chinese to English for the Global community, LOL
