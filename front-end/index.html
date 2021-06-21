@@ -194,6 +194,8 @@
 
       .file-name {
         line-height: 1em;
+        font-size: 18px;
+        color: rgb(247, 173, 35);
         padding: 1em 1em 0;
         text-align: center;
         white-space: nowrap;
@@ -203,12 +205,13 @@
       .btn {
         float: right;
         text-align: center;
-        border: solid rgb(218, 215, 215) 1px;
+        background-color: rgb(243, 255, 51);
+        border: solid black 3px;
         border-radius: 1em;
-        margin: 1em 0.2em;
-        width: 4em;
+        margin: auto;
+        width: 6em;
         height: 2em;
-        line-height: 2em;
+        line-height: 1.5em;
         user-select: none;
         -moz-user-select: none;
         -o-user-select: none;
@@ -252,6 +255,7 @@
       }
 
       ion-icon {
+        color: white;
         font-size: 1.5em;
       }
 
@@ -290,6 +294,7 @@
         height: 100%;
         margin: 0;
         padding: 0;
+        background-color: rgb(73, 74, 64) ;
       }
 
       .header-wrapper {
@@ -318,6 +323,10 @@
 
       .site {
         white-space: nowrap;
+        font-weight: bold;
+        color: rgb(9, 246, 254);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
         /* margin-left: auto;
                 padding-left: 2em; */
       }
@@ -378,9 +387,11 @@
       .tree-node {
         display: flex;
         align-items: center;
+        color: white;
       }
 
       .tree-node-name {
+        font-family: Arial, Helvetica, sans-serif;
         margin-left: 0.3em;
         white-space: nowrap;
       }
@@ -415,6 +426,9 @@
 
       .name {
         display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(248, 186, 31);
+        font-size: 18px;
         align-items: center;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -430,6 +444,8 @@
 
       .time {
         overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(35, 247, 77 );
         text-overflow: ellipsis;
         white-space: nowrap;
         text-align: right;
@@ -438,6 +454,8 @@
 
       .size {
         overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(35, 247, 77 );
         text-overflow: ellipsis;
         white-space: nowrap;
         margin-left: auto;
@@ -1186,6 +1204,7 @@
               default:
                 let textWrapper = document.createElement("div");
                 textWrapper.style.textAlign = "center";
+                textWrapper.style.color = "white";
                 textWrapper.innerHTML = "The file does not support preview";
                 content.innerHTML = "";
                 content.appendChild(textWrapper);
